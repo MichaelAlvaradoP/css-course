@@ -33,7 +33,7 @@ a {
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
-  align-items: ;
+  align-items:center ;
 }
 .hero {
   background-image: url(../img/principal.jpg);
@@ -44,5 +44,5 @@ a {
 /* Categorias */
 .listado-categorias{
     display: grid;
-    
+
 }
