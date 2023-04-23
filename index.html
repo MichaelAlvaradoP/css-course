@@ -1,189 +1,285 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aprendiendo HTML</title>
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
-    </header>
-    <div class="contenedor-navegacion">
-      <nav class="nav-principal">
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Sobre Nosotros</a>
-        <a href="tienda.html">Tienda</a>
-        <a href="blog.html">Blog</a>
-        <a href="galeria.html">Galería</a>
-        <a href="contacto.html">Contacto</a>
-      </nav>
-    </div>
-    <div class="hero"></div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid - Básicos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-    <section class="contenedor categorias">
-      <h2 class="text-center">Categorías de Producto</h2>
-      <div class="listado-categorias">
-        <div class="categoria">
-          <img src="img/categoria1.jpg" alt="Imagen Categoría" />
-          <a href="">Oficina</a>
+    <div class="caja-curso">
+        <h1>CSS La Guía Completa - Flexbox, CSS Grid, SASS +20 proyectos</h1>
+        <p>- Juan De la torre @codigoconjuan</p>
+        <a target="blank" rel="nofollow noopener noreferrer"  href="https://codigoconjuan.com/">Vísita mi sitio Codigo Con Juan</a>
+    </div>
+
+
+    <div class="contenedor">
+
+        <h2>1.- Display Grid</h2>
+
+        <div class="grid-1">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
         </div>
-        <div class="categoria">
-          <img src="img/categoria2.jpg" alt="Imagen Categoría" />
-          <a href="">Hogar</a>
+
+        <h2>2.- Grid Template Columns</h2>
+
+        <div class="grid-2">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-        <div class="categoria">
-          <img src="img/categoria3.jpg" alt="Imagen Categoría" />
-          <a href="">Cocina</a>
+
+        <h2>3.- Grid Template Rows</h2>
+
+        <div class="grid-3">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-      </div>
-    </section>
-    <section class="sobre-nosotros">
-      <div class="contenedor sobre-nosotros-grid">
-        <div class="texto-nosotros">
-          <h2>Sobre Nosotros</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam ea quis consectetur officiis laborum. Esse, blanditiis quam ad
-            debitis rerum quae labore quo, aliquam harum dicta facere possimus
-            saepe.
-          </p>
+
+        <h2>4.- Span</h2>
+
+        <div class="grid-4">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-      </div>
-      <!-- Div creado para editarlo con CSS -->
-    </section>
-    <main class="contenido-principal contenedor">
-      <h2 class="text-center">Nuestros productos</h2>
-      <div class="listado-productos">
-        <div class="producto">
-          <img src="img/producto1.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 1</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!-- Producto-->
-          <!--Info Producto-->
+
+
+        <h2>5.- Grid Shorthand</h2>
+
+        <div class="grid-5">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-        <div class="producto">
-          <img src="img/producto2.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 2</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!--Info Producto-->
+
+        <h2>6.- Grid Autoflow</h2>
+
+        <div class="grid-6">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-        <!-- Producto-->
-        <div class="producto">
-          <img src="img/producto3.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 3</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!--Info Producto-->
+
+        <h2>7.- Grid Fr y Grid Repeat</h2>
+
+        <div class="grid-7">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-        <!-- Producto-->
-        <div class="producto">
-          <img src="img/producto4.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 4</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!--Info Producto-->
+
+        <h2>8.- Grid Gap</h2>
+
+        <div class="grid-8">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
         </div>
-        <!-- Producto-->
-        <div class="producto">
-          <img src="img/producto5.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 5</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!--Info Producto-->
+
+        <h2>9.- Grid Areas</h2>
+
+        <div class="grid-9">
+            <div class="box">
+                Header
+            </div>
+            <div class="box">
+                Nav
+            </div>
+            <div class="box">
+                Principal
+            </div>
+            <div class="box">
+                Sidebar
+            </div>
+            <div class="box">
+                Footer
+            </div>
         </div>
-        <!-- Producto-->
-        <div class="producto">
-          <img src="img/producto6.jpg" alt="" />
-          <div class="texto-producto">
-            <h3>Producto 6</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
-              accusamus!
-            </p>
-            <p class="precio">$1.000,00</p>
-            <a class="btn" href="#">Agregar al Carrito</a>
-          </div>
-          <!--Info Producto-->
+
+
+        <h2>10.- Grid Template</h2>
+
+        <div class="grid-10">
+            <div class="box">
+                Header
+            </div>
+            <div class="box">
+                Nav
+            </div>
+            <div class="box">
+                Principal
+            </div>
+            <div class="box">
+                Sidebar
+            </div>
+            <div class="box">
+                Footer
+            </div>
         </div>
-        <!-- Producto-->
-      </div>
-      <!-- Fin de Listado de Productos-->
-    </main>
-    <footer class="site-footer">
-      <div class="grid-footer contenedor">
-        <div>
-          <h3>Categorías</h3>
-          <nav class="footer-menu">
-            <a href="#">Cocina</a>
-            <a href="#">Oficina</a>
-            <a href="#">Jardín</a>
-            <a href="#">Cochera</a>
-            <a href="#">Dormitorios</a>
-          </nav>
-        </div> <!-- Elemento Footer -->
-        <div>
-          <h3>Sobre Nosotros</h3>
-          <nav class="footer-menu">
-            <a href="#">Nuestra Historia</a>
-            <a href="#">Mision, Visión y valores</a>
-            <a href="#">Carreras</a>
-            <a href="#">Política de Privacidad</a>
-            <a href="#">Términos del Servicio</a>
-          </nav>
-        </div> <!-- Elemento Footer -->
-        <div>
-          <h3>Soporte</h3>
-          <nav >
-            <nav class="footer-menu">
-            <a href="#">Preguntas Frecuentes</a>
-            <a href="#">Ayuda en Línea</a>
-            <a href="#">Confianza y Seguridad</a>
-          </nav>
-        </div> <!-- Elemento Footer -->
-      </div>
-      <p class="copyright">Todos los derechos, Reservados, TiendaMuebles</p>
-    </footer>
-  </body>
+
+    
+        <h2>11.- Alineación Grid </h2>
+
+        <div class="grid-11">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+            <div class="box">
+                4
+            </div>
+            <div class="box">
+                5
+            </div>
+            <div class="box">
+                6
+            </div>
+        </div>
+
+
+
+
+        <h2>12.- Grid Autofill y Autofit</h2>
+
+        <div class="grid-12">
+            <div class="box">
+                1
+            </div>
+            <div class="box">
+                2
+            </div>
+            <div class="box">
+                3
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
